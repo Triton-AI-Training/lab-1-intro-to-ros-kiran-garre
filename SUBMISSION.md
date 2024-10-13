@@ -5,16 +5,6 @@
 ### Q1: During this assignment, you've probably ran these two following commands at some point: ```source /opt/ros/foxy/setup.bash``` and ```source install/local_setup.bash```. Functionally what is the difference between the two?
 
 <<<<<<< HEAD
-Answer: (FILL ME IN)
-
-### Q2: What does the ```queue_size``` argument control when creating a subscriber or a publisher? How does different ```queue_size``` affect how messages are handled?
-
-Answer: (FILL ME IN)
-
-### Q3: Do you have to call ```colcon build``` again after you've changed a launch file in your package? (Hint: consider two cases: calling ```ros2 launch``` in the directory where the launch file is, and calling it when the launch file is installed with the package.)
-
-Answer: (FILL ME IN)
-=======
 Answer: `source /opt/ros/foxy/setup.bash` sets up the environment such that ROS2 commands and dependencies are recognized. On the other hand, `source install/local_setup.bash` is meant for local dependencies, nodes, and packages that are defined 
 or included by the user.
 
